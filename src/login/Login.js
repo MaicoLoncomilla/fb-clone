@@ -36,7 +36,7 @@ function Login(){
                     <div className={s.container_empty}></div>
                 
                     <div className={s.container_button_newAccout}>
-                        <button onClick={toggle}>Create New Accout</button>
+                        <button onClick={toggle}>Create New Account</button>
                     </div>
                     <div className={s.container_create_page}>
                         <a>Create a Page </a>
