@@ -32,6 +32,10 @@ function CreatePost(){
       image: imageURL,
     })
     setContent("");
+    setPost({
+      type: CREATE_POST,
+      create_post: false
+    })
   }
   const toggleEmoji = e =>{
     e.preventDefault();
