@@ -1,0 +1,15 @@
+.container{
+    height: 80vh;
+    margin-top: 16px;
+    padding: 3px;
+    position: sticky;
+    top: 77px;
+    z-index: 100;
+}
+.iframe{
+   width: 340px;
+   height: 100%;
+   border: none;
+   overflow: hidden;
+    
+}

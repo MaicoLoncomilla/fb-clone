@@ -1,0 +1,6 @@
+.containerStory{
+    display: flex;
+    justify-content: space-between;
+    max-width: 680px;
+    margin-top: 16px;
+}

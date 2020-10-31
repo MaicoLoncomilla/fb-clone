@@ -1,0 +1,230 @@
+.container_signup{
+    margin: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 432px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1),
+        0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 8px
+}
+.container_signup_2{
+    background-color: transparent;
+    padding: 0;
+    width: 432px;
+}
+.container_signup_2 button{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    z-index: 2;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    font-size: 24px;
+    font-family: inherit;
+    cursor: pointer;
+}
+.container_signup_title{
+    padding: 10px 16px;
+    width: 400px;
+    box-sizing: border-box;
+    height: 100%;
+}
+.container_signup_title p{
+    color: #8d949e;
+}
+.container_signup_title h2{
+    color: #1c1e21;
+    font-size: 2em;
+    line-height: 38px;
+    margin-bottom: 0;
+    font-weight: bold;
+    width: 400px;
+    height: 38px;
+}
+.container_form{
+    width: 100%;
+}
+.container_form_2{
+    background-color: #fff;
+    border-top: 1px solid #dadde1;
+    box-sizing: border-box;
+    padding: 16px;
+    position: relative;
+    width: 432px;
+}
+.container_form_2 form{
+    width: 400px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container_name_lastname{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.container_first_name{
+    width: 194px;
+    height: 40px;
+}
+
+.container_first_name input{
+    width: 170px;
+    padding: 12px;
+    font-size: 15px;
+    line-height: 16px;
+    border: 1px solid #ccd0d5;
+    background-color: #f5f6f7; 
+    border-radius: 5px;
+}
+.container_last_name{
+    width: 194px;
+    height: 40px;  
+}
+.container_last_name input{
+    width: 170px;
+    padding: 12px;
+    font-size: 15px;
+    line-height: 16px;
+    border: 1px solid #ccd0d5;
+    background-color: #f5f6f7; 
+    border-radius: 5px;
+}
+.container_first_name, 
+.container_last_name, 
+.container_mobile_email_password input::placeholder{
+    color: #8d949e;
+}
+.container_mobile_email_password{
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.container_mobile_email_password input{
+    width: 376px;
+    padding: 12px;
+    font-size: 15px;
+    line-height: 16px;
+    border: 1px solid #ccd0d5;
+    background-color: #f5f6f7; 
+    border-radius: 5px;
+}
+.container_birthday_3_input{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 376px;
+    color: #606770;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+.container_birthday_3_input p{
+    margin-right: 3px;
+}
+.container_birthday{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container_select{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 36px;
+}
+.container_select select{
+    border-radius: 4px;
+    color: #1c1e21;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+    padding: 0px 8px;
+    width: 125px;
+    border: 1px solid #ccd0d5;
+}
+.container_select span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    color: #1c1e21;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+    width: 125px;
+    border: 1px solid #ccd0d5;
+}
+.container_select label{
+    padding: 0px 8px;
+}
+.container_select input{
+    margin-right: 8px;
+}
+.container_text{
+    width: 400px;
+}
+.container_text p{
+    color: #777;
+    font-size: 11.5px;
+    margin: 16px 0px;
+    font-family: inherit;
+}
+.container_text p a {
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: inherit;
+}
+.container_text p a:hover{
+    text-decoration: underline;
+}
+.container_button{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 400px;
+    height: 56px;
+}
+.container_button input{
+    background-color: #00a400;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    height: 36px;
+    min-width: 194px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.container_button_google{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 400px;
+    height: 56px;
+}
+.container_button_google input {
+    background-color: #00a400;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    height: 36px;
+    width: 100%;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}

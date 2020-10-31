@@ -1,0 +1,34 @@
+
+.App{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color:#18191A;
+    min-height: 100vh;
+}
+
+.containerBody{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+/* .containerBody:focus{
+    overflow: scroll;
+} */
+/* .message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 99999;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background-color: rgba(6, 6, 6, .7);
+} */
+
+
+
+

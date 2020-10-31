@@ -1,0 +1,97 @@
+.container{
+    max-width: 340px;
+    min-width: 280px;
+    width: 100%;
+}
+.sideBarContainer{
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    border-bottom: 1px solid #333333;
+    height: max-content;
+    max-height: 91vh;
+    overflow-y: auto;
+    max-width: 340px;
+    min-width: 280px;
+    width: 100%;
+    margin-top: 16px;
+    position: sticky;
+    top: 77px;
+    z-index: 100;
+}
+.sideBarContainer::-webkit-scrollbar{
+    width: 6px;
+    background-color: #333;
+}
+.sideBarContainer::-webkit-scrollbar-thumb{
+    background-color: #666;
+    border-radius: 10px;
+}
+.buttonSeeMore{
+    width: 100%;
+    height: 52px;
+    border-radius: 5px;
+    outline: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #bbb;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0px 8px;
+}
+.buttonSeeMore:hover{
+    background-color: #232323;
+    border-radius: 10px;
+}
+button h4{
+    margin-left: 15px;
+}
+.IconButton{
+    color: #bbb;
+    border-radius: 50%;
+    background-color: #404040;
+}
+.container_button_main{
+    padding: 3px;
+}
+.container_button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    height: 52px;
+    
+}
+
+.container_footer{
+    position: absolute;
+    max-width: 284px;
+    height: 25.250px;
+    padding: 16px;
+    align-self: flex-end;
+    position: sticky;
+    top: 93%;
+}
+.container_footer_span{
+    max-width: 284px;
+    height: 100%;
+    align-self: flex-end;
+}
+.container_span{
+    color: #b0b3b8;
+    font-weight: normal;
+    line-height: 1.2308;
+    font-size: .8125em;
+    max-width: 100%;
+}
+
+.container_span ul{
+    list-style-type: none;
+}
+.container_span ul li{
+    display: inline;
+    cursor: pointer;
+}

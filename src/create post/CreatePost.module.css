@@ -1,0 +1,187 @@
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 484px;
+    min-width: 484px;
+    max-height: 812px;
+    min-height: 412px;
+    background-color:hsl(0, 0%, 14%);
+    padding: 16px;
+    border-radius: 10px;
+    overflow-y: visible;
+}
+.containerTop{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    border-bottom: 2px solid #333333;
+    
+}
+.buttonX{
+    position: absolute;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    background-color: #404040;
+    color: #ddd;
+    font-size: 1.5em;
+    outline: none;
+    cursor: pointer;
+}
+
+.containerAvatarTittle{
+   display: flex;
+   margin-left: 10px;
+   margin-top: 10px; 
+}
+.nombre{
+    margin-left: 10px;
+}
+.divTextArea{
+    margin: 10px;
+}
+.textarea{
+    width: 100%;
+    max-height: 124px;
+    min-height: 124px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.9em;
+    outline: none;
+    resize: none;
+    color: #ddd; 
+}
+.textarea::-webkit-scrollbar{
+    background-color: transparent;
+    width: 7px;
+    border-radius: 5px;
+}
+.textarea::-webkit-scrollbar-thumb{
+    background-color: #404040;
+    border-radius: 5px;
+}
+.AddPost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border: 2px solid #333333;
+    border-radius: 10px;
+}
+.iconos{
+   margin-right: 5px;
+   cursor: pointer;
+}
+.buttonPost{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 7px;
+    line-height: 2.5em;
+    color: #bbb;
+    background-color: #404040;
+    border: none;
+    outline: none;
+}
+
+.buttonChange{
+    background-color: #2e81f4;
+    color: #ddd;
+}
+.buttonEmoji{
+   display: flex;
+   justify-content: flex-end;
+   flex-direction: column-reverse;
+   margin-top: 10px;
+}
+.buttonSmilePicker{
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    padding: 3px;
+    position: relative;
+    margin: 0 15px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: gray;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.buttonSmilePicker:hover{
+    background-color: #404040;
+}
+.picker{
+    position: absolute;
+    z-index: 100000;
+    top: -15%;
+    right: 0%;
+}
+.input_images[type="file"]{
+    display: none;
+}
+.container_img_textarea{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+.container_img_textarea::-webkit-scrollbar{
+    background-color: transparent;
+    width: 7px;
+    border-radius: 5px;
+}
+.container_img_textarea::-webkit-scrollbar-thumb{
+    background-color: #404040;
+    border-radius: 5px;
+}
+.container_img_post{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0;
+}
+.container_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.container_img img {
+    width: 95%;
+    border-radius: 20px;
+}
+.buttonX_img{
+    position: absolute;
+    top: 4%;
+    right: 6%;
+    z-index: 30;
+    background-color: #404040;
+    color: #ddd;
+    padding: 6px 9px;
+    font-size: large;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.buttonX_img:hover{
+    background-color: #606060;
+}
+.select{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    outline: none;
+    color: #ddd;
+    padding: 2px;
+    border-radius: 5px;
+}

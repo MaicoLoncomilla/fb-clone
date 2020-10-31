@@ -1,0 +1,65 @@
+.containerYourMind{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #242526;
+    overflow-y: hidden;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+
+}
+.containerTop{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #606060;
+}
+.inputMind{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.inputMind::-webkit-input-placeholder{
+    color: #ccc;
+}
+.containerBottom{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    
+}
+.containerBottomChild{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+    font-size: medium;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+.containerBottomChild:hover{
+    background-color: #434343;
+    cursor: pointer;
+}
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(6, 6, 6, .7);
+}
