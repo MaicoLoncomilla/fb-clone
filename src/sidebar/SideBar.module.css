@@ -3,6 +3,11 @@
     min-width: 280px;
     width: 100%;
 }
+@media (max-width: 1243px) {
+    .container{
+        display: none;
+    }
+}
 .sideBarContainer{
     padding-bottom: 10px;
     display: flex;

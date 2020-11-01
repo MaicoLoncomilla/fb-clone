@@ -1,11 +1,13 @@
 .container{
  display: flex;
  align-items: center; 
- width: 320px;
+ max-width: 320px;
  box-sizing: border-box;
 }
+
 .container_2{
-    width: 288px;
+    max-width: 288px;
+    min-width: 250px;
     height: 60px;
     padding: 0px 16px;
     display: flex;
@@ -21,7 +23,8 @@
     width: 40px;
 }
 .inputSearch{
-    width: 208px;
+    max-width: 208px;
+    width: 100%;
     padding: 7px 16px 9px 16px;
     box-sizing: border-box;
     border-radius: 50px;
@@ -47,11 +50,23 @@
     color: #b0b3b8;
 }
 .container_label{
-    width: 240px;
+    max-width: 240px;
     height: 40px;
     position: relative;
     font-weight: 600;
     color: #606770;    
+}
+@media (max-width: 727px) {
+    .container{
+        width: 60px;
+    }
+    .container_3{
+        justify-content: flex-start;
+        width: 60px;
+    }
+    .container_label{
+        display: none;
+    }
 }
 .container_searchicon{
     width: 16px;

@@ -9,3 +9,13 @@
     height: 93.4vh;
     overflow: hidden;
 }
+
+@media (max-width: 963px) {
+    .container_main{
+        margin: auto;
+        /* height: 93.4vh; */
+    }
+    .container_main_2{
+        margin: auto;
+    }
+}

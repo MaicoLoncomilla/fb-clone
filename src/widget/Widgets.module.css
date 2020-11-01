@@ -6,6 +6,11 @@
     top: 77px;
     z-index: 100;
 }
+@media (max-width: 970px) {
+    .container{
+        display: none;
+    }
+}
 .iframe{
    width: 340px;
    height: 100%;
