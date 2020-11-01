@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fb-clone/static/css/main.c2b63218.chunk.css",
+    "main.css": "/fb-clone/static/css/main.0b264406.chunk.css",
     "main.js": "/fb-clone/static/js/main.aada01c7.chunk.js",
     "main.js.map": "/fb-clone/static/js/main.aada01c7.chunk.js.map",
     "runtime-main.js": "/fb-clone/static/js/runtime-main.98fca3d7.js",
@@ -8,15 +8,15 @@
     "static/js/2.0fabae65.chunk.js": "/fb-clone/static/js/2.0fabae65.chunk.js",
     "static/js/2.0fabae65.chunk.js.map": "/fb-clone/static/js/2.0fabae65.chunk.js.map",
     "index.html": "/fb-clone/index.html",
-    "precache-manifest.38eb2c9d09001fd142024ba276dd3f6f.js": "/fb-clone/precache-manifest.38eb2c9d09001fd142024ba276dd3f6f.js",
+    "precache-manifest.82ee6e31961b79550dc5e7b75eb842ea.js": "/fb-clone/precache-manifest.82ee6e31961b79550dc5e7b75eb842ea.js",
     "service-worker.js": "/fb-clone/service-worker.js",
-    "static/css/main.c2b63218.chunk.css.map": "/fb-clone/static/css/main.c2b63218.chunk.css.map",
+    "static/css/main.0b264406.chunk.css.map": "/fb-clone/static/css/main.0b264406.chunk.css.map",
     "static/js/2.0fabae65.chunk.js.LICENSE.txt": "/fb-clone/static/js/2.0fabae65.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.98fca3d7.js",
     "static/js/2.0fabae65.chunk.js",
-    "static/css/main.c2b63218.chunk.css",
+    "static/css/main.0b264406.chunk.css",
     "static/js/main.aada01c7.chunk.js"
   ]
 }

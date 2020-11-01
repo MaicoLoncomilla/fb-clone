@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92ef56872448684e6cf108ad12501c1a",
+    "revision": "5889c05505d2852026f0db362734b577",
     "url": "/fb-clone/index.html"
   },
   {
-    "revision": "a4a5e206de968843c2e6",
-    "url": "/fb-clone/static/css/main.c2b63218.chunk.css"
+    "revision": "038fea92af8060471842",
+    "url": "/fb-clone/static/css/main.0b264406.chunk.css"
   },
   {
     "revision": "6efb4fd7e82aa9641007",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fb-clone/static/js/2.0fabae65.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a4a5e206de968843c2e6",
+    "revision": "038fea92af8060471842",
     "url": "/fb-clone/static/js/main.aada01c7.chunk.js"
   },
   {
