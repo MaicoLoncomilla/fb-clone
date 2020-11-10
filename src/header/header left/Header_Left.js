@@ -11,7 +11,6 @@ function Header_Left(){
                     </img>
                     <label className={s.container_label}>
                         <div className={s.container_searchicon}>
-
                         </div>
                         <div className={s.containerInputSearch}>
                             <SearchIcon className={s.SearchIcon}/>
