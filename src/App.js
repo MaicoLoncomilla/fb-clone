@@ -8,11 +8,9 @@ import Login from './login/Login';
 import { useStateValue } from './firebase/StateProvider';
 
 function App() {
-
-  const [{ user }, dispatch] = useStateValue();
+  const [{ user }] = useStateValue();
   
   return(
-
 
     //createpos
     <div className="App">
@@ -30,7 +28,5 @@ function App() {
       }
     </div>
   )
-
 }
-
 export default App;

@@ -4,16 +4,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 432px;
+    max-width: 432px;
+    width: 100%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1),
         0 8px 16px rgba(0, 0, 0, .1);
-    border-radius: 8px
+    border-radius: 8px;
+    margin: 0;
 }
 .container_signup_2{
     background-color: transparent;
     padding: 0;
-    width: 432px;
+    width: 100%;
 }
 .container_signup_2 button{
     position: absolute;
@@ -29,7 +31,8 @@
 }
 .container_signup_title{
     padding: 10px 16px;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     box-sizing: border-box;
     height: 100%;
 }
@@ -42,7 +45,8 @@
     line-height: 38px;
     margin-bottom: 0;
     font-weight: bold;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     height: 38px;
 }
 .container_form{
@@ -54,10 +58,12 @@
     box-sizing: border-box;
     padding: 16px;
     position: relative;
-    width: 432px;
+    max-width: 432px;
+    width: 100%;
 }
 .container_form_2 form{
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -70,12 +76,13 @@
     width: 100%;
 }
 .container_first_name{
-    width: 194px;
+    width: 95%;
     height: 40px;
 }
 
 .container_first_name input{
-    width: 170px;
+    max-width: 170px;
+    width: 100%;
     padding: 12px;
     font-size: 15px;
     line-height: 16px;
@@ -84,11 +91,12 @@
     border-radius: 5px;
 }
 .container_last_name{
-    width: 194px;
+    width: 95%;
     height: 40px;  
 }
 .container_last_name input{
-    width: 170px;
+    box-sizing: border-box;
+    width: 100%;
     padding: 12px;
     font-size: 15px;
     line-height: 16px;
@@ -107,7 +115,8 @@
     margin-bottom: 10px;
 }
 .container_mobile_email_password input{
-    width: 376px;
+    max-width: 376px;
+    width: 94%;
     padding: 12px;
     font-size: 15px;
     line-height: 16px;
@@ -119,7 +128,8 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 376px;
+    max-width: 376px;
+    width: 100%;
     color: #606770;
     font-size: 12px;
     font-weight: normal;
@@ -138,7 +148,8 @@
 .container_select{
     display: flex;
     justify-content: space-between;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     height: 36px;
 }
 .container_select select{
@@ -149,7 +160,8 @@
     height: 36px;
     line-height: 20px;
     padding: 0px 8px;
-    width: 125px;
+    max-width: 125px;
+    width: 100%;
     border: 1px solid #ccd0d5;
 }
 .container_select span{
@@ -162,7 +174,8 @@
     font-weight: normal;
     height: 36px;
     line-height: 20px;
-    width: 125px;
+    max-width: 125px;
+    width: 100%;
     border: 1px solid #ccd0d5;
 }
 .container_select label{
@@ -172,7 +185,8 @@
     margin-right: 8px;
 }
 .container_text{
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
 }
 .container_text p{
     color: #777;
@@ -193,7 +207,8 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     height: 56px;
 }
 .container_button input{
@@ -202,7 +217,8 @@
     color: #fff;
     font-size: 18px;
     height: 36px;
-    min-width: 194px;
+    max-width: 194px;
+    width: 100%;
     text-align: center;
     border-radius: 6px;
     cursor: pointer;
@@ -213,7 +229,8 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     height: 56px;
 }
 .container_button_google input {

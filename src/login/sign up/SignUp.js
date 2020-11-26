@@ -63,17 +63,17 @@ function SignUp(){
                                 <div className={s.container_select}>
                                     <select>
                                         {Months && Months.map(months =>
-                                            <option>{months}</option>
+                                            <option key={months}>{months}</option>
                                         )}
                                     </select>
                                     <select>
                                         {ArrayDays && ArrayDays.map(days =>
-                                            <option>{days}</option>
+                                            <option key={days}>{days}</option>
                                         )}
                                     </select>
                                     <select>
                                         {ArrayYears && ArrayYears.map(years =>
-                                            <option>{years}</option>
+                                            <option key={years}>{years}</option>
                                         )}
                                     </select>
                                 </div>
@@ -101,11 +101,11 @@ function SignUp(){
                             <div className={s.container_text}>
                                 <p>
                                     By clicking Sign Up, you agree to our
-                                    <a> Terms</a>
+                                    <label> Terms</label>
                                     ,
-                                    <a> Data Policy </a>
+                                    <label> Data Policy </label>
                                     and
-                                    <a> Cookies Policy</a>
+                                    <label> Cookies Policy</label>
                                     . You may receive SMS Notifications from us and can opt out any time.
                                 </p>
                             </div>

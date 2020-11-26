@@ -1,10 +1,11 @@
 import React from 'react'
-import s from './Header_Middle.module.css';
+import s from './HeaderMiddle.module.css';
 import HomeIcon from '@material-ui/icons/Home';
 import GroupIcon from '@material-ui/icons/Group';
 import LiveTvIcon from '@material-ui/icons/LiveTv';
 import StoreIcon from '@material-ui/icons/Store';
 import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
+import DehazeIcon from '@material-ui/icons/Dehaze';
 
 function Header_Middle(){
     return (
@@ -53,6 +54,9 @@ function Header_Middle(){
                     <div className={s.container_empty}>
                     </div>
                 </div>
+            </div>
+            <div className={s.DehazeIcon_none_block}>
+                <DehazeIcon fontSize="large"/>
             </div>
         </div>
     )

@@ -1,6 +1,3 @@
-import { render } from 'less';
-import React from 'react';
-
 export const DateBuilder = (d) =>{
     let days =["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
     let Months =["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]

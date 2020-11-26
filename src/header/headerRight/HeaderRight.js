@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import s from './Header_Right.module.css';
+import s from './HeaderRight.module.css';
 import {Avatar} from '@material-ui/core';
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import NotificationsIcon from '@material-ui/icons/Notifications';
@@ -9,7 +9,7 @@ import LogOut from './log out/LogOut';
 
 function Header_Right(){
 
-    const [{ user }, dispatch] = useStateValue();
+    const [{ user }] = useStateValue();
     const [active, setActive] = useState(false);
 
     function toogle() {
@@ -31,7 +31,7 @@ function Header_Right(){
                     <NotificationsIcon className={s.backgroundIcon} />
                 </div>
                 <Avatar className={s.backgroundAvatar} src={user.photoURL} />
-                <div className={s.container_backgroundIcon}>
+                <div className={s.container_backgroundIcon_arrow}>
                     <button onClick={toogle} className={s.button}>
                         <ArrowDropDownOutlinedIcon className={s.backgroundIcon} />
                     </button>

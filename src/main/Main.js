@@ -7,7 +7,7 @@ import db from '../firebase/firebase'
 import { useStateValue } from '../firebase/StateProvider';
 
 function Main(){
-    const [{ create_post }, dispatch] = useStateValue();
+    const [{ create_post }] = useStateValue();
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
@@ -41,14 +41,14 @@ function Main(){
                         <Pages />
                         <YourMind />
 
-                        {posts.map(post => (
+                        {posts.map(post2 => (
                             <Post
-                                key={post.data.id}
-                                profilePic={post.data.profilePic}
-                                message={post.data.message}
-                                timestamp={post.data.timestamp}
-                                username={post.data.username}
-                                img={post.data.image}
+                                key={post2.data.id}
+                                profilePic={post2.data.profilePic}
+                                message={post2.data.message}
+                                timestamp={post2.data.timestamp}
+                                username={post2.data.username}
+                                img={post2.data.image}
                             />
                         ))}
 

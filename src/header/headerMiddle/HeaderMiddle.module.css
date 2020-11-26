@@ -73,3 +73,21 @@
 .IconMiddle_active{
     color: #2d88ff;
 }
+.DehazeIcon_none_block{
+    display: none;
+}
+@media (max-width: 525px){
+
+    .container_icon{
+        display: none;
+    }
+    .DehazeIcon_none_block{
+        display: block;
+        color: #b0b3b8;
+        width: 28px;
+        height: 28px;
+    }
+    .containerMiddleIcon{
+        justify-content: center;
+    }
+} 

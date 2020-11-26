@@ -10,7 +10,7 @@ import CreatePost from '../../create post/CreatePost'
 
 function YourMind(){
 
-    const [ { user } , dispatch] = useStateValue();
+    const [ { user }] = useStateValue();
     const [ post, setPost ] = useStateValue();
 
     const toggle = e => {

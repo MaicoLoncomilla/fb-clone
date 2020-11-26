@@ -33,7 +33,7 @@ import { useStateValue } from '../firebase/StateProvider';
 function SideBar(){
     const [activate, setActivate] = useState(false);
     const [activateButton, setActivateButton] = useState(true);
-    const [{ user }, dispatch] = useStateValue();
+    const [{ user }] = useStateValue();
 
     function SeeMore(e){
         e.preventDefault();

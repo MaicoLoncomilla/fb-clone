@@ -4,3 +4,13 @@
     max-width: 680px;
     margin-top: 16px;
 }
+@media (max-width: 525px){
+    .Story5{
+        display: none;
+    }
+}
+@media (max-width: 425px){
+    .Story4{
+        display: none;
+    }
+}
