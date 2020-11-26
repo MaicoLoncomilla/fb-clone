@@ -1,6 +1,28 @@
 ### DEMO https://maicoloncomilla.github.io/fb-clone/
 
+#### This App use React js, Firebase, Css vanilla, JavaScript
 
+First you need to go to, create new account
+![alt text](https://github.com/MaicoLoncomilla/fb-clone/blob/master/images/newAccount.png)
+
+Then, Click in "Sign in with Google"
+
+![alt text](https://github.com/MaicoLoncomilla/fb-clone/blob/master/images/google.png)
+
+Now you should see something like that.
+![alt text](https://github.com/MaicoLoncomilla/fb-clone/blob/master/images/Home.png)
+
+Click on "See More" to see more categories
+![alt text](https://github.com/MaicoLoncomilla/fb-clone/blob/master/images/seeMore.png)
+
+Click here to create a new post 
+![alt text](https://github.com/MaicoLoncomilla/fb-clone/blob/master/images/yourMind.png)
+
+Now you should see something like that. You can upload an image, or even use emojis
+![alt text](https://github.com/MaicoLoncomilla/fb-clone/blob/master/images/createPost.png)
+
+Click on this arrow, and then click on "Log Out" to exit the application
+![alt text](https://github.com/MaicoLoncomilla/fb-clone/blob/master/images/arrow.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
